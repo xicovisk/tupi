@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+body{
+    font-family:'Poppins', sans-serif;
+}
+.nav-menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    width: 20;
+    background-color: white;
+    transition: all;
+    margin: 30px 50px 80px 50px;
+    list-style: none;
+}
+.menu{
+    box-shadow: 0 1.2rem 1rem #ccc; 
+    border-radius: 100px;
+    padding: 13px;
+    margin: 50px
+}
+.fotologo{
+    box-shadow: 0 1.2rem 1rem #ccc; 
+    border-radius: 100px;
+    padding: 10px;
+    margin: 50px;
+}
+a:link{
+   margin: 90px;
+   text-decoration: none;
+   color: black;
+   font-size: 20px;
+   font-weight: 600;
+   border-radius: 10px;
+   padding: 10px;
+}
+a:active{
+    color: black;
+}
+a:visited{
+    color: black;
+}
+a:hover{
+    color: silver;
+    background-color: white;
+    padding: 5px;
+    border-radius: 20px;
+}
+h1{
+    background-color: silver;
+    border-radius: 9px;
+    text-align: left;
+    box-shadow: 0 0.6rem 0.9rem silver;
+}
+.letraembra{
+    font-size: 35px;
+}
+p{
+    background-color: white;
+    font-size: 19px;
+    margin-bottom: 234px;
+}
+.home-imagem{
+    text-align: center;
+    box-shadow: 0 0.9rem 0.9rem #ccc;
+    border-radius: 10px;
+    margin: 110px 50px 250px 50px;
+}
+.linkvolta{
+    text-align: right;
+    background-color: white;
+}
+table, th, td{
+    border: 10px;
+    margin: 60px 100px 250px 0px;
+    text-align:  center;
+    border:  1px solid black;  
+    box-shadow: 0 0.9rem 0.9rem #ccc; 
+    font-size: 20px;
+}
+table{
+    border-collapse: collapse;
+}
+.rodape{
+    display: center;
+    font-size: 16px;
+    text-align: center;
+    background-color: whitesmoke;
+    padding: 10px;
+    box-shadow: 0 0.1rem 1rem #ccc;
+    border-radius: 10px;
+    margin-top: 400px;
+}
+
+
+
+@media (max-width:1050px){
+    
+    .nav-menu{
+        display: block;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+        width: 20;
+        background-color: white;
+        transition: all;
+        margin: 13px;
+        list-style: none;
+    }
+    .menu{
+        box-shadow: 0 1.2rem 1rem #ccc; 
+        border-radius: 100px;
+        padding: 15px;
+        margin: 12px;
+        margin-bottom: 40px;
+    }
+    .fotologo{
+        box-shadow: 0 1.2rem 1rem #ccc; 
+        border-radius: 100px;
+        padding: 10px;
+        margin: 10px 0px 10px 50px;
+    }
+    a:link{
+       margin: 90px;
+       text-decoration: none;
+       color: black;
+       font-size: 20px;
+       font-weight: 600;
+       border-radius: 10px;
+       padding: 10px;
+    }
+    a:active{
+        color: black;
+    }
+    a:visited{
+        color: black;
+    }
+    a:hover{
+        color: silver;
+        background-color: white;
+        padding: 5px;
+        border-radius: 20px;
+    }
+    h1{
+        background-color: silver;
+        border-radius: 9px;
+        text-align: left;
+        box-shadow: 0 0.6rem 0.9rem silver;
+    }
+    .letraembra{
+        font-size: 25px;
+    }
+    p{
+        background-color: white;
+        font-size: 20px;
+        margin: 10px 0px 34px 0px; 
+    }
+    .home-imagem{
+        text-align: center;
+        box-shadow: 0 0.9rem 0.9rem #ccc;
+        border-radius: 10px;
+        margin: 10px 0px 150px 0px;
+    }
+    .home-imagem img{
+        max-width: 350px;
+
+    }
+    .linkvolta{
+        text-align: right;
+        background-color: white;
+    }
+    table, th, td{
+        border: 10px;
+        margin: 60px 0px 150px 0px;
+        text-align:  center;
+        border:  1px solid black;  
+        box-shadow: 0 0.9rem 0.9rem #ccc; 
+        font-size: 20px;
+    }
+    table{
+        border-collapse: collapse;
+    }
+    .rodape{
+        display: center;
+        font-size: 10px;
+        text-align: center;
+        background-color: whitesmoke;
+        padding: 10px;
+        box-shadow: 0 0.1rem 1rem #ccc;
+        border-radius: 10px;
+        margin-top: 100px;
+    }
+
+}
