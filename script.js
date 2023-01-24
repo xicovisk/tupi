@@ -31,5 +31,3 @@ $('.nav a[href^="#inicio"]').on('click', function(e) {
 	}, 500);
 });
 
-const menu = document.querySelector(".menubar");
-const NavMenu = document.querySelector(".nav-menu");
